@@ -1,253 +1,220 @@
 <div align="center">
 
-# RIMAN 力曼 · Global Formulation & Market Intelligence
+# RIMAN · Cosmetic Formulation Science & Clinical Data Repository
 
-**6 languages / 六語種**：`繁中 zh-TW` · `简中 zh-CN` · `English` · `日本語` · `Español` · `Français`
+**6 Languages / 六語種**：`繁中 zh-TW` · `简中 zh-CN` · `English` · `日本語` · `Español` · `Français`
 
-[![Live Site](https://img.shields.io/badge/Live-www.riman.win-84BD00?style=for-the-badge&logo=cloudflare&logoColor=white)](https://www.riman.win)
 [![License: MIT](https://img.shields.io/badge/License-MIT-1A1D1B?style=for-the-badge)](./LICENSE)
-[![Open Data](https://img.shields.io/badge/Open%20Data-GitHub%20%7C%20HF%20%7C%20Kaggle-111810?style=for-the-badge)](https://github.com/riman-org)
+[![Open Science](https://img.shields.io/badge/Open%20Science-GitHub%20%7C%20HF%20%7C%20Kaggle-111810?style=for-the-badge)](https://github.com/riman-org)
+[![Portal](https://img.shields.io/badge/Research%20Portal-www.riman.win-84BD00?style=for-the-badge&logo=cloudflare&logoColor=white)](https://www.riman.win)
 
-[🌐 www.riman.win](https://www.riman.win) ·
-[🧬 GitHub](https://github.com/riman-org) ·
+[🌐 Research Portal](https://www.riman.win) ·
+[🧬 GitHub Org](https://github.com/riman-org) ·
 [🤗 Hugging Face](https://huggingface.co/riman-org) ·
-[📊 Kaggle](https://www.kaggle.com/rimanwin) ·
-[✍️ DEV.to](https://dev.to/riman) ·
-[𝕏 X](https://x.com/rimanwin2026)
+[📊 Kaggle Datasets](https://www.kaggle.com/rimanwin) ·
+[✍️ Technical Notes](https://dev.to/riman)
 
 </div>
 
 ---
 
-## Language switch / 語種導航
+## Language Navigation / 語種導航
 
-| Lang | Section |
-| --- | --- |
-| 繁體中文 | [繁體中文（zh-TW）](#-繁體中文-zh-tw) |
-| 简体中文 | [简体中文（zh-CN）](#-简体中文-zh-cn) |
-| English | [English](#-english) |
-| 日本語 | [日本語](#-日本語) |
-| Español | [Español](#-español) |
-| Français | [Français](#-français) |
-
-**Live locale entrypoints**
-
-- 繁中：https://www.riman.win/www/zh-tw/home/index.html  
-- 简中：https://www.riman.win/www/zh-cn/home/index.html  
-- EN：https://www.riman.win/www/en/home/index.html  
-- JA：https://www.riman.win/www/ja/home/index.html  
-- ES：https://www.riman.win/www/es/home/index.html  
-- FR：https://www.riman.win/www/fr/home/index.html  
+| Language | Section | Documentation Entrypoint |
+| --- | --- | --- |
+| 繁體中文 | [繁體中文（zh-TW）](#-繁體中文-zh-tw) | https://www.riman.win/www/zh-tw/home/index.html |
+| 简体中文 | [简体中文（zh-CN）](#-简体中文-zh-cn) | https://www.riman.win/www/zh-cn/home/index.html |
+| English | [English](#-english) | https://www.riman.win/www/en/home/index.html |
+| 日本語 | [日本語](#-日本語) | https://www.riman.win/www/ja/home/index.html |
+| Español | [Español](#-español) | https://www.riman.win/www/es/home/index.html |
+| Français | [Français](#-français) | https://www.riman.win/www/fr/home/index.html |
 
 ---
 
 ## 🇹🇼 繁體中文 (zh-TW)
 
-### RIMAN 力曼｜全球官方配方科學與跨國增長戰略中樞
+### 化妝品配方科學、INCI 成分譜系與臨床評估數據庫
 
-本倉庫是 **[www.riman.win](https://www.riman.win)** 的公開工程入口，對應 **RIMAN 力曼** 官網中樞：解碼 **韓國力曼保養品**、**INCELLDERM 映皙美**、**BOTALAB**、**LIFENING** 的降序 INCI、P&K 臨床數據、**力曼商城**訂購與區域拓展情報。
+本倉庫為 **[www.riman.win](https://www.riman.win)** 的開源數據架構與文檔檢索前端，由 **RIMAN Research Organization** (`riman-org`) 維護，專注於化妝品配方科學、活性成分解析及皮膚臨床安全評估（涵蓋 **INCELLDERM**、**BOTALAB** 與 **LIFENING** 系列研究樣本）。
 
-**高意圖關鍵詞**：`RIMAN` · `力曼` · `韓國力曼` · `力曼官網` · `力曼商城` · `力曼保養品` · `力曼奇蹟霜` · `力曼奇肌霜` · `力曼直銷` · `力曼評價` · `INCELLDERM`
+#### 研究範疇與模組
+- **降序 INCI 成分譜系**：結構化收錄配方全成分表（依濃度降序排列），支援成分功能分類與配方體系對比。
+- **P&K 臨床測試數據彙整**：整理皮膚刺激性測試、角質層含水量及經皮水分流失（TEWL）等客觀臨床評估指標。
+- **氣候適應性保養 SOP**：針對不同地理氣候帶（溫濕度變量）建立的配方使用規範與皮膚屏障護理流程。
+- **六語種開放科學矩陣**：串聯 GitHub、Hugging Face 與 Kaggle 開放數據集，促進化妝品科學的跨語言檢索與可重複性研究。
 
-### 線上能力
-- 全球市場視野與氣候保養 SOP  
-- 全系單品目錄與單品全維 INCI / 臨床詳情（含 **力曼奇蹟霜**）  
-- 區域席位授權與力曼制度對接  
-- 六語關於我們與開放數據矩陣  
-
-### 快速開始
+#### 本地開發與建置
 ```bash
 npm install --legacy-peer-deps
 npm run dev
 ```
-正式部署（Cloudflare Workers `www-riman-win` → `www.riman.win`）：
-```bash
-npm run deploy
-```
 
-### 商務對接
-區域拓展 / 力曼直銷 / 沙龍導入：`ceo@riman.win`
+#### 學術與技術聯繫
+數據集核驗與科研合作：`ceo@riman.win`
 
 ---
 
 ## 🇨🇳 简体中文 (zh-CN)
 
-### RIMAN 力曼｜全球官方配方科学与跨国增长战略中枢
+### 化妆品配方科学、INCI 成分谱系与临床评估数据库
 
-本仓库是 **[www.riman.win](https://www.riman.win)** 的公开工程入口，对应 **RIMAN 力曼** 官网中枢：解码 **韩国力曼护肤品**、**INCELLDERM 映皙美**、**BOTALAB**、**LIFENING** 的降序 INCI、P&K 临床数据、**力曼商城**订购与区域拓展情报。
+本仓库为 **[www.riman.win](https://www.riman.win)** 的开源数据架构与文档检索前端，由 **RIMAN Research Organization** (`riman-org`) 维护，专注于化妆品配方科学、活性成分解析及皮肤临床安全评估（涵盖 **INCELLDERM**、**BOTALAB** 与 **LIFENING** 系列研究样本）。
 
-**高意图关键词**：`RIMAN` · `力曼` · `韩国力曼` · `力曼官网` · `力曼商城` · `力曼护肤品` · `力曼奇迹霜` · `力曼奇肌霜` · `力曼直销` · `力曼测评` · `INCELLDERM`
+#### 研究范畴与模块
+- **降序 INCI 成分谱系**：结构化收录配方全成分表（依浓度降序排列），支持成分功能分类与配方体系对比。
+- **P&K 临床测试数据汇总**：整理皮肤刺激性测试、角质层含水量及经皮水分流失（TEWL）等客观临床评估指标。
+- **气候适应性护肤 SOP**：针对不同地理气候带（温湿度变量）建立的配方使用规范与皮肤屏障护理流程。
+- **六语种开放科学矩阵**：串联 GitHub、Hugging Face 与 Kaggle 开放数据集，促进化妆品科学的跨语言检索与可重复性研究。
 
-### 线上能力
-- 全球市场视野与气候护肤 SOP  
-- 全系单品目录与单品全维 INCI / 临床详情（含 **力曼奇迹霜**）  
-- 区域席位授权与力曼制度对接  
-- 六语关于我们与开放数据矩阵  
-
-### 快速开始
+#### 本地开发与构建
 ```bash
 npm install --legacy-peer-deps
 npm run dev
 ```
-正式部署：
-```bash
-npm run deploy
-```
 
-### 商务对接
-区域拓展 / 力曼直销 / 沙龙导入：`ceo@riman.win`
+#### 学术与技术联系
+数据集核验与科研合作：`ceo@riman.win`
 
 ---
 
 ## 🇺🇸 English
 
-### RIMAN Global Formulation & Market Intelligence
+### Cosmetic Formulation Science, INCI Taxonomy & Clinical Telemetry
 
-Public engineering surface for **[www.riman.win](https://www.riman.win)** — the official hub for **RIMAN Skincare**, **INCELLDERM**, **BOTALAB** and **LIFENING**: descending INCI, P&K clinical telemetry, **RIMAN Mall** ordering, and global expansion desks.
+This repository hosts the open-source data schema, documentation interface, and structured datasets for **[www.riman.win](https://www.riman.win)**, maintained by the **RIMAN Research Organization** (`riman-org`). It focuses on standardized ingredient taxonomy and dermatological evaluation across Korean skincare formulations (**INCELLDERM**, **BOTALAB**, and **LIFENING**).
 
-**High-intent keywords**: `RIMAN Skincare` · `RIMAN INCELLDERM` · `INCELLDERM` · `RIMAN Korean Skincare` · `RIMAN Mall` · `RIMAN Skincare Review` · `RIMAN Products` · `RIMAN BB Cream` · `RIMAN Cleanser` · `RIMAN Collagen` · `RIMAN Direct Selling`
+#### Research Scope & Modules
+- **Descending INCI Taxonomy**: Structured JSON datasets mapping full ingredient lists in descending order of concentration for formulation analysis.
+- **P&K Clinical Telemetry**: Standardized summaries of dermatological safety testing, skin barrier hydration, and transepidermal water loss (TEWL) evaluation metrics.
+- **Climate-Adaptive Skincare SOPs**: Reference protocols matching formulation rheology and active ingredients to regional humidity and temperature profiles.
+- **Multilingual Open-Science Matrix**: Cross-platform data synchronization across GitHub, Hugging Face, and Kaggle for reproducible cosmetic science research.
 
-### Product modules
-- Global Atlas with climate SOP & regulatory notes  
-- Full catalog + SKU detail pages (INCI / clinical / SOP)  
-- Regional licensing seats & salon automation onboarding  
-- About hub + open-science publishing matrix  
-
-### Quick start
+#### Local Setup & Build
 ```bash
 npm install --legacy-peer-deps
 npm run dev
-npm run deploy   # Cloudflare Worker: www-riman-win
 ```
 
-### Partnerships
-Regional seats / Direct Selling / salon automation: `ceo@riman.win`
+#### Research Collaboration
+For academic inquiries, dataset verification, or technical collaboration: `ceo@riman.win`
 
 ---
 
 ## 🇯🇵 日本語
 
-### RIMAN（リマン）グローバル処方科学・国際成長インテリジェンス中枢
+### 化粧品処方科学・INCI 成分分類・臨床評価データベース
 
-**[www.riman.win](https://www.riman.win)** の公開リポジトリです。韓国スキンケア **RIMAN / INCELLDERM（インセルダム） / BOTALAB / LIFENING** の降順 INCI、P&K 臨床データ、公式モール購入・登録、地域展開デスクを提供します。
+本リポジトリは、**RIMAN Research Organization** (`riman-org`) が管理する **[www.riman.win](https://www.riman.win)** のオープンデータ構造およびドキュメントインターフェースです。韓国スキンケア処方（**INCELLDERM**、**BOTALAB**、**LIFENING**）における全成分（降順 INCI）の体系化および皮膚科学的臨床評価データの公開を目的としています。
 
-**検索キーワード**：`RIMAN` · `インセルダム` · `INCELLDERM` · `RIMAN 公式` · `RIMAN 成分` · `RIMAN 購入` · `韓国コスメ` · `RIMAN レビュー`
+#### 研究モジュール
+- **降順 INCI 成分分類**：配合濃度順の全成分リストを構造化 JSON として整理し、処方設計の比較分析を支援します。
+- **P&K 臨床評価データ**：皮膚一次刺激性試験、角層水分量、経表皮水分蒸散量（TEWL）などの客観的評価指標を収録。
+- **気候適応型スキンケア SOP**：地域の湿度・気温プロファイルに応じた処方適用プロトコル。
+- **多言語オープンサイエンス連携**：GitHub、Hugging Face、Kaggle における研究データセットの同期。
 
-### できること
-- グローバル市場アトラスと気候別スキンケア SOP  
-- 全製品カタログと INCI / 臨床詳細  
-- 地域パートナー席位とサロン展開  
-- 6言語 About + オープンデータ連携  
-
-### クイックスタート
+#### ローカル環境構築
 ```bash
 npm install --legacy-peer-deps
 npm run dev
-npm run deploy
 ```
 
-### お問い合わせ
-地域展開・パートナー席位：`ceo@riman.win`
+#### 研究・技術に関するお問い合わせ
+学術協力・データ検証：`ceo@riman.win`
 
 ---
 
 ## 🇪🇸 Español
 
-### RIMAN Skincare Coreano: Ciencia de Formulación y Expansión Global
+### Ciencia de Formulación Cosmética, Taxonomía INCI y Telemetría Clínica
 
-Repositorio público de **[www.riman.win](https://www.riman.win)** — hub oficial de **RIMAN Skincare Coreano** e **INCELLDERM**: ingredientes INCI descendentes, datos clínicos P&K, acceso a **RIMAN Mall** y escritorios de expansión regional.
+Este repositorio aloja la arquitectura de datos abiertos y la interfaz de documentación de **[www.riman.win](https://www.riman.win)**, mantenida por **RIMAN Research Organization** (`riman-org`). Se centra en el análisis estandarizado de ingredientes (INCI descendente) y la evaluación clínica dermatológica de formulaciones cosméticas coreanas (**INCELLDERM**, **BOTALAB** y **LIFENING**).
 
-> Anti-ruido ES: siempre acoplar `Skincare Coreano` / `INCELLDERM` / `Cosmética Coreana` (evitar tráfico de rimas).
+#### Módulos de Investigación
+- **Taxonomía INCI Descendente**: Conjuntos de datos JSON estructurados con listas completas de ingredientes ordenadas por concentración.
+- **Telemetría Clínica P&K**: Métricas estandarizadas de seguridad dermatológica, hidratación del estrato córneo y pérdida transepidérmica de agua (TEWL).
+- **SOP Climáticos**: Protocolos técnicos que adaptan el uso de formulaciones según variables regionales de humedad y temperatura.
+- **Matriz de Ciencia Abierta**: Sincronización de conjuntos de datos en GitHub, Hugging Face y Kaggle.
 
-**Keywords**: `RIMAN Skincare Coreano` · `RIMAN INCELLDERM` · `RIMAN Chile` · `RIMAN España` · `RIMAN México` · `RIMAN Mall` · `Cosmética Coreana` · `INCELLDERM Reseñas`
-
-### Capacidades
-- Atlas global con SOP climático y notas regulatorias  
-- Catálogo y fichas INCI / clínicas  
-- Asientos regionales, Direct Selling y automatización de salones  
-- About multilingüe + ciencia abierta  
-
-### Inicio rápido
+#### Ejecución Local
 ```bash
 npm install --legacy-peer-deps
 npm run dev
-npm run deploy
 ```
 
-### Partnerships
-Escritorio regional: `ceo@riman.win`
+#### Contacto Académico y Técnico
+Colaboración científica y verificación de datos: `ceo@riman.win`
 
 ---
 
 ## 🇫🇷 Français
 
-### RIMAN Skincare : Science de Formulation et Expansion Mondiale
+### Science de Formulation Cosmétique, Taxonomie INCI et Télémétrie Clinique
 
-Surface d’ingénierie publique de **[www.riman.win](https://www.riman.win)** — hub officiel **RIMAN Skincare** & **INCELLDERM** : analyse INCI descendante, télémétrie clinique P&K, boutique officielle et desks d’expansion régionale.
+Ce dépôt héberge l'architecture de données ouvertes et l'interface documentaire de **[www.riman.win](https://www.riman.win)**, maintenues par **RIMAN Research Organization** (`riman-org`). Il est dédié à la taxonomie standardisée des ingrédients (INCI décroissant) et à l'évaluation clinique dermatologique des formulations coréennes (**INCELLDERM**, **BOTALAB** et **LIFENING**).
 
-**Mots-clés** : `RIMAN Skincare` · `RIMAN INCELLDERM` · `Cosmétique Coréenne RIMAN` · `Analyse INCI` · `RIMAN France` · `RIMAN Mall` · `Avis INCELLDERM`
+#### Modules de Recherche
+- **Taxonomie INCI Décroissante** : Jeux de données JSON structurés répertoriant les listes complètes d'ingrédients par ordre décroissant de concentration.
+- **Télémétrie Clinique P&K** : Synthèses normalisées des tests de tolérance cutanée, d'hydratation et de perte insensible en eau (PIE / TEWL).
+- **SOP Adaptés aux Climats** : Protocoles d'application ajustés selon les paramètres régionaux d'humidité et de température.
+- **Matrice Science Ouverte** : Synchronisation des corpus de recherche sur GitHub, Hugging Face et Kaggle.
 
-### Capacités
-- Atlas mondial + SOP climats secs/humides  
-- Catalogue produits & fiches INCI / cliniques  
-- Sièges partenaires régionaux & salons esthétiques  
-- About 6 langues + open science  
-
-### Démarrage rapide
+#### Installation Locale
 ```bash
 npm install --legacy-peer-deps
 npm run dev
-npm run deploy
 ```
 
-### Partenariats
-Desk régional : `ceo@riman.win`
+#### Contact Scientifique et Technique
+Collaboration de recherche et vérification des données : `ceo@riman.win`
 
 ---
 
-## Shared technical notes / 共通技術說明
+## Technical Architecture & Data Schema
 
-| Item | Value |
+| Component | Specification |
 | --- | --- |
-| Live domain | https://www.riman.win |
-| Worker name | `www-riman-win` |
-| Stack | React · TypeScript · Vite · Cloudflare Workers Static Assets |
-| Locales | `zh-TW` · `zh-CN` · `en` · `ja` · `es` · `fr` |
-| SEO routes | `/www/{lang}/{func}/{detail}/{landing}.html` |
-| SEO pack | `src/data/seo_meta.json` (294 non-report pages) |
-| License | [MIT](./LICENSE) |
+| Research Portal | https://www.riman.win |
+| Runtime & Build | React · TypeScript · Vite · Cloudflare Workers Static Assets |
+| Supported Locales | `zh-TW` · `zh-CN` · `en` · `ja` · `es` · `fr` |
+| Structured Datasets | `src/data/skus.json` (Formulation & INCI schema), `src/data/markets_and_desks.json` (Regional climate & regulatory notes) |
+| Open Science Mirrors | [GitHub](https://github.com/riman-org) · [Hugging Face](https://huggingface.co/riman-org) · [Kaggle](https://www.kaggle.com/rimanwin) |
+| License | [MIT License](./LICENSE) |
 
-### Open data matrix
-
-| Channel | URL |
-| --- | --- |
-| Site | https://www.riman.win |
-| GitHub org | https://github.com/riman-org |
-| Hugging Face | https://huggingface.co/riman-org |
-| Kaggle | https://www.kaggle.com/rimanwin |
-| DEV.to | https://dev.to/riman |
-| X | https://x.com/rimanwin2026 |
-| Brand portal | https://www.riman.com |
-| Business | mailto:ceo@riman.win |
-
-### Repository map
+### Repository Structure
 
 ```text
-src/App.tsx
-src/data/skus.json
-src/data/markets_and_desks.json
-src/data/seo_meta.json
-src/data/site_links.json
-public/assets/
-wrangler.jsonc
+├── src/
+│   ├── App.tsx                       # Main documentation viewer application
+│   └── data/
+│       ├── skus.json                 # Structured INCI & clinical evaluation dataset
+│       ├── markets_and_desks.json    # Regional climate SOP & regulatory metadata
+│       └── site_links.json           # Cross-locale reference index
+├── public/assets/                    # Static scientific diagrams & assets
+└── wrangler.jsonc                    # Edge deployment configuration
+```
+
+---
+
+## Citation
+
+If you use the structured INCI datasets or regional climate protocols from this repository in your research, please cite this repository via its Zenodo DOI or reference:
+
+```bibtex
+@misc{riman_formulation_data_2026,
+  author       = {{RIMAN Research Organization}},
+  title        = {{RIMAN Cosmetic Formulation Science, INCI Taxonomy \& Clinical Telemetry Repository}},
+  year         = {2026},
+  publisher    = {GitHub / Zenodo},
+  url          = {https://github.com/riman-org/www-riman-win}
+}
 ```
 
 ---
 
 ## License
 
-MIT — see [`LICENSE`](./LICENSE).  
-Brand names (**RIMAN / 力曼 / INCELLDERM / BOTALAB / LIFENING**) remain subject to applicable trademark rules.
+This codebase and structured metadata are released under the **MIT License** — see [`LICENSE`](./LICENSE) for details.  
+Product and brand names (**RIMAN**, **INCELLDERM**, **BOTALAB**, **LIFENING**) are trademarks of their respective owners and are referenced strictly for scientific identification and formulation analysis.
 
 ---
 
@@ -257,6 +224,6 @@ Brand names (**RIMAN / 力曼 / INCELLDERM / BOTALAB / LIFENING**) remain subjec
 
 | zh-TW | zh-CN | EN | JA | ES | FR |
 | --- | --- | --- | --- | --- | --- |
-| RIMAN 力曼｜全球官方配方科學與跨國增長戰略中樞 | RIMAN 力曼｜全球官方配方科学与跨国增长战略中枢 | RIMAN Global Formulation & Market Intelligence | RIMAN（リマン）グローバル処方科学・国際成長インテリジェンス中枢 | RIMAN Skincare Coreano: Ciencia de Formulación y Expansión Global | RIMAN Skincare : Science de Formulation et Expansion Mondiale |
+| 化妝品配方科學、INCI 成分譜系與臨床評估數據庫 | 化妆品配方科学、INCI 成分谱系与临床评估数据库 | Cosmetic Formulation Science, INCI Taxonomy & Clinical Telemetry | 化粧品処方科学・INCI 成分分類・臨床評価データベース | Ciencia de Formulación Cosmética, Taxonomía INCI y Telemetría Clínica | Science de Formulation Cosmétique, Taxonomie INCI et Télémétrie Clinique |
 
 </div>
