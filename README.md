@@ -4,6 +4,7 @@
 
 **6 Languages / 六語種**：`繁中 zh-TW` · `简中 zh-CN` · `English` · `日本語` · `Español` · `Français`
 
+[![DOI](https://img.shields.io/badge/DOI-10.34740%2Fkaggle%2Fdsv%2F22383536-1072BA?style=for-the-badge&logo=doi&logoColor=white)](https://doi.org/10.34740/kaggle/dsv/22383536)
 [![License: MIT](https://img.shields.io/badge/License-MIT-1A1D1B?style=for-the-badge)](./LICENSE)
 [![Open Science](https://img.shields.io/badge/Open%20Science-GitHub%20%7C%20HF%20%7C%20Kaggle-111810?style=for-the-badge)](https://github.com/riman-org)
 [![Portal](https://img.shields.io/badge/Research%20Portal-www.riman.win-84BD00?style=for-the-badge&logo=cloudflare&logoColor=white)](https://www.riman.win)
@@ -178,6 +179,7 @@ Collaboration de recherche et vérification des données : `ceo@riman.win`
 | Supported Locales | `zh-TW` · `zh-CN` · `en` · `ja` · `es` · `fr` |
 | Structured Datasets | `src/data/skus.json` (Formulation & INCI schema), `src/data/markets_and_desks.json` (Regional climate & regulatory notes) |
 | Open Science Mirrors | [GitHub](https://github.com/riman-org) · [Hugging Face](https://huggingface.co/riman-org) · [Kaggle](https://www.kaggle.com/rimanwin) |
+| Persistent DOI | [10.34740/kaggle/dsv/22383536](https://doi.org/10.34740/kaggle/dsv/22383536) |
 | License | [MIT License](./LICENSE) |
 
 ### Repository Structure
@@ -197,15 +199,16 @@ Collaboration de recherche et vérification des données : `ceo@riman.win`
 
 ## Citation
 
-If you use the structured INCI datasets or regional climate protocols from this repository in your research, please cite this repository via its Zenodo DOI or reference:
+If you use the structured INCI datasets or regional climate protocols from this repository in your research, please cite this dataset via its official DOI:
 
 ```bibtex
 @misc{riman_formulation_data_2026,
   author       = {{RIMAN Research Organization}},
-  title        = {{RIMAN Cosmetic Formulation Science, INCI Taxonomy \& Clinical Telemetry Repository}},
+  title        = {{RIMAN Skincare INCI Taxonomy \& Clinical Data}},
   year         = {2026},
-  publisher    = {GitHub / Zenodo},
-  url          = {https://github.com/riman-org/www-riman-win}
+  publisher    = {Kaggle / GitHub},
+  doi          = {10.34740/kaggle/dsv/22383536},
+  url          = {https://doi.org/10.34740/kaggle/dsv/22383536}
 }
 ```
 
